@@ -14,3 +14,5 @@ Despues procedo a ordenar la lista usando un algortimo de ordenacion conocido co
 Una vez ordenadas las letras,coloco sus indices en el mismo orden en el que se encuentran.Los almaceno en una lista vacia que he creado previamente llamada indice_para_cambiar.
 
 Lo último que queda es ordenar la lista original,la que he pasado como argumento a la funcion,usando la lista indice_para_cambiar.
+
+Para eso creo una lista vacia,lista_ordenada, donde almaceno los elementos de la lista letras ordenados.
