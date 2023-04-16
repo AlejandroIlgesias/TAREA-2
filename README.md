@@ -35,6 +35,10 @@ Despues cambio las cadenas vacias de las claves por ceros y las  comas por punto
 Una vez hecho eso,simplemente queda calcular la nota final de cada alumno usando un bucle for y las funciones int() y float() aplicadas a las cadenas de caracteres almacenadas en las claves Parcial1,Parcial2 y Practicas.
 Por último añado una nueva clave a cada diccionario llamada NotaFinal y el valor que le doy es el almacenado en la variable nota_final.
 
+Finalmente la funcion devuelve la lista de diccionarios con el nuevo par NotaFinal:numero(float).
+
+(3)
+
 
 
 
