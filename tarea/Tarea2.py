@@ -11,10 +11,7 @@ for x in leer_fichero:
     lista1.append(x)
 fichero.close()
 
-#LISTA ORDENADA
 
-
-#OBTENEMOS LOS DICCIONARIOS
 
 
 
