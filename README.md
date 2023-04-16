@@ -8,3 +8,7 @@ Es decir , un elemento de la lista llamada letras tiene esta forma:
 [letra,indice de la lista a la que pertenece dicha letra]
 
 Una vez tengo la lista letras completa,quito el primer elemento,debido a que este se refiere a la primera linea del archivo calificaciones.csv,y dicha linea simplemente sirve para identificar los elementos de las restantes lineas,no contiene informacion alguna de ningun alumno.
+
+Despues procedo a ordenar la lista usando un algortimo de ordenacion conocido como insert sort.Este algoritmo separa la lista en dos partes, ordenadas y no ordenadas. También supone que el primer elemento está ordenado, luego pasa al siguiente elemento que lo voy a llamar Y por ejemplo; comparamos Y con el primero, si es mayor, se queda como está pero si es más pequeño, copia el primer elemento en la segunda posición e inserta Y como primero.
+
+Una vez ordenadas las letras,coloco sus indices en el mismo orden en el que se encuentran.Los almaceno en una lista vacia que he creado previamente llamada indice_para_cambiar
