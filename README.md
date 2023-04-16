@@ -15,4 +15,4 @@ Una vez ordenadas las letras,coloco sus indices en el mismo orden en el que se e
 
 Lo último que queda es ordenar la lista original,la que he pasado como argumento a la funcion,usando la lista indice_para_cambiar.
 
-Para eso creo una lista vacia,lista_ordenada, donde almaceno los elementos de la lista letras ordenados.
+Para eso creo una lista vacia,lista_ordenada, donde almaceno los elementos de la lista original ordenados.
