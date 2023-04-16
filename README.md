@@ -11,4 +11,6 @@ Una vez tengo la lista letras completa,quito el primer elemento,debido a que est
 
 Despues procedo a ordenar la lista usando un algortimo de ordenacion conocido como insert sort.Este algoritmo separa la lista en dos partes, ordenadas y no ordenadas. También supone que el primer elemento está ordenado, luego pasa al siguiente elemento que lo voy a llamar Y por ejemplo; comparamos Y con el primero, si es mayor, se queda como está pero si es más pequeño, copia el primer elemento en la segunda posición e inserta Y como primero.
 
-Una vez ordenadas las letras,coloco sus indices en el mismo orden en el que se encuentran.Los almaceno en una lista vacia que he creado previamente llamada indice_para_cambiar
+Una vez ordenadas las letras,coloco sus indices en el mismo orden en el que se encuentran.Los almaceno en una lista vacia que he creado previamente llamada indice_para_cambiar.
+
+Lo último que queda es ordenar la lista original,la que he pasado como argumento a la funcion,usando la lista indice_para_cambiar.
