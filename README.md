@@ -1,4 +1,6 @@
 # TAREA-2
+
+
 Las funciones pedidas son:
 (1)Una funcion que reciba el fichero de calificaciones y devuelva una lista de diccionarios,donde cada diccionario contiene la informacion de los exámenes y la asistencia de un alumno.La lista tiene que estar ordenada por apellidos.
 
@@ -37,7 +39,19 @@ Por último añado una nueva clave a cada diccionario llamada NotaFinal y el val
 
 Finalmente la funcion devuelve la lista de diccionarios con el nuevo par NotaFinal:numero(float).
 
-(3)
+(3)Una función que reciba una lista de diccionarios como la que devuelve la función anterior y devuelva dos listas, una con los alumnos aprobados y otra con los alumnos suspensos. Para aprobar el curso, la asistencia tiene que ser mayor o igual que el 75%, la nota de los exámenes parciales y de prácticas mayor o igual que 4 y la nota final mayor o igual que 5.
+
+Esta funcion tambien se encuentra en el archivo funcion.py
+Se llama clasificar.
+Tiene un solo argumento,el cual es una lista de diccionarios.
+Lo primero que hace es obtener las claves del diccionario y las almacena en la variable claves en forma de lista.
+
+Despues usando un bucle for y la funcion replace() cambio el caracter % de la cadena almacenada en la clave Asistencia de cada diccionario por una cadena vacia,para mas adelante a la hora de realizar las comparaciones poder aplicar la funcion int() sin que salte una excepcion.
+
+Por último a través de un bucle for compruebo que se cumplen todas las condiciones pedidas en el apartado (3) del ejercicio ,para saber si meter el diccionario en la lista declarada previamente almacenada en la variable llamada aprobados o en la llamada suspensos.
+
+Por último,una vez repartidos todos los diccionarios entre las dos listas,las devuelvo en una tupla,donde la primera tupla es la lista de alumnos aprobados y la segunda es la lista de los alumnos suspensos.
+
 
 
 
