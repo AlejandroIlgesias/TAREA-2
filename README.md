@@ -28,7 +28,11 @@ Esta lista es la que devuelve la función.
 
 La funcion tambien se encuentra en el archivo funciones.py.Se llama añadir y toma como parametro una lista de diccionarios.
 
-Lo primero que hace es obtener las claves comunes a todos los diccionarios de la lista a traves del metodo keys() aplicado a uno de los diccionarios que la integran y las almacena en forma de lista en la variablie que declare con el nombre de claves.
+Lo primero que hace es obtener las claves comunes a todos los diccionarios de la lista a traves del metodo keys() aplicado a uno de los diccionarios que la integran y las almacena en forma de lista en la variablie que declaré con el nombre de claves.
+
+Despues cambio las cadenas vacias de las claves por ceros y las  comas por puntos,ayudandome con las funciones replace(), que reemplaza una subcadena de una cadena por otra, y isinstance() que indica si el dato pasado como primer parametro es una clase hija del dato/objeto pasado como segundo parametro.
+
+Una vez hecho eso,simplemente queda calcular la nota final de cada alumno usando un bucle for y las funciones int() y float() aplicadas a las cadenas de caracteres almacenadas en las claves Parcial1,Parcial2 y Practicas.
 
 
 
