@@ -33,6 +33,7 @@ Lo primero que hace es obtener las claves comunes a todos los diccionarios de la
 Despues cambio las cadenas vacias de las claves por ceros y las  comas por puntos,ayudandome con las funciones replace(), que reemplaza una subcadena de una cadena por otra, y isinstance() que indica si el dato pasado como primer parametro es una clase hija del dato/objeto pasado como segundo parametro.
 
 Una vez hecho eso,simplemente queda calcular la nota final de cada alumno usando un bucle for y las funciones int() y float() aplicadas a las cadenas de caracteres almacenadas en las claves Parcial1,Parcial2 y Practicas.
+Por último añado una nueva clave a cada diccionario llamada NotaFinal y el valor que le doy es el almacenado en la variable nota_final.
 
 
 
