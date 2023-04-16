@@ -28,4 +28,8 @@ Esta lista es la que devuelve la función.
 
 La funcion tambien se encuentra en el archivo funciones.py.Se llama añadir y toma como parametro una lista de diccionarios.
 
+Lo primero que hace es obtener las claves comunes a todos los diccionarios de la lista a traves del metodo keys() aplicado a uno de los diccionarios que la integran y las almacena en forma de lista en la variablie que declare con el nombre de claves.
+
+
+
 
