@@ -22,3 +22,8 @@ Una vez tengo la lista ordenada,creo un diccionario con los datos de la linea 1 
 Usando un bucle for para acceder a cada elemento de cada lista declaro los valores de cada clave y el diccionario resultante lo copio y lo almaceno en la variable z.Por último el diccionario lo almaceno en la lista vacia que creé previamente llamada final.
 
 Esta lista es la que devuelve la función.
+
+
+(2)Una función que reciba una lista de diccionarios como la que devuelve la función anterior y añada a cada diccionario un nuevo par con la nota final del curso. El peso de cada parcial de teoría en la nota final es de un 30% mientras que el peso del examen de prácticas es de un 40%.
+
+
